@@ -19,6 +19,13 @@
 
 .sidebar p {
     margin-left: 20px;
+    transition: 0.3s;
+}
+
+.sidebar section:hover {
+    cursor: pointer;
+    color: #12bcd8;
+
 }
 
 .sidebar section {
