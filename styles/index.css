@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.body {
+    display: flex;
+}
+
+.reloadly_image {
+    margin: 20px 0 20px 0;
+    width: 10vw;
+}
+.sidebar {
+    background-color: #fdfefe;
+    color: #59514a;
+    font-family: 'Roboto', sans-serif;
+    font-size:small;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.sidebar p {
+    margin-left: 20px;
+}
+
+.sidebar section {
+    width: 20vw;
+    display: flex;   
+    flex-wrap: nowrap;
+}
+
+.api_keys {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main_page {
+    background-color: #f4f9f9;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 50px;
+}
+
+.main_page h2 {
+    color: #252f41;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    padding: 20px 0 5px 0;
+}
+
+.main_page p {
+    color: #77716c;
+}
+
+.main_page a:hover {
+    color: #12bcd8;
+}
+
+.api_keys {
+    margin-top: 20px;
+}
+
+.api_keys a {
+    border: 0.5px solid #000000;
+    padding: 15px 10px 15px 10px;
+    border-radius: 2px;
+    color: #000000;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.api_keys :hover {
+    cursor: pointer;
+    color: #12bcd8;
+    border: 0.5px solid #12bcd8;
+
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 0 0;
+}
+
+.welcome h1 {
+    color: #252f41;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 100px 0 20px 0;
+}
+
+.welcome section {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.welcome p {
+    font-size: large;
+}
+
+.getting_started {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.getting_started section {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px 0 0;
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 10px #eff6f6;
+}
+
+.getting_started section:hover {
+    cursor: pointer;
+}
+
+.getting_started section a {
+    margin: 40px 0 20px 0;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.explore_products h2 {
+    color: #252f41;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
+    font-size: x-large;
+    font-weight: 400;
+    margin: 100px 0 20px 0;
+}
+
+.airtime_products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.airtime_products section {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 30px 30px 0;
+    border: 1px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 10px #eff6f6;
+    
+}
+
+.airtime_products section:hover {
+    cursor: pointer;
+}
+
+.airtime_products section a {
+    padding: 40px 0 10px 0;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.airtime_products h3 {
+    color: #252f41;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin: 25px 0 20px 20px;
+}
+
+table {
+    width: 70vw;
+}
+
+tr {
+    display: block;
+    margin: 30px 0;
+}
+
+td {
+    width: 30vw;
+    border-bottom: 2px solid #d1d0d0;
+    padding: 0 0 10px 0;
+}
+
+td > * {
+   display: inline-block;
+   margin: 10px 0;
+   color: #000000;
+   font-weight: 600;
+   text-decoration: none;
+   transition: 0.3s;
+}
+
+
+img {
+    width: 24px;
+}
