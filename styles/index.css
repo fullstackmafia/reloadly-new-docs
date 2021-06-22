@@ -45,6 +45,7 @@
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     padding: 0 50px;
+    vertical-align: baseline;
 }
 
 .main_page h2 {
@@ -108,6 +109,11 @@
 
 .welcome p {
     font-size: large;
+}
+
+.lottie {
+    width: 61vw;
+    height: 35vh;
 }
 
 .getting_started {
@@ -192,27 +198,382 @@ table {
     width: 70vw;
 }
 
-tr {
+table tr {
     display: block;
     margin: 30px 0;
 }
 
-td {
+table td {
     width: 30vw;
     border-bottom: 2px solid #d1d0d0;
     padding: 0 0 10px 0;
+    line-height: normal;
 }
 
-td > * {
+table td > * {
    display: inline-block;
    margin: 10px 0;
-   color: #000000;
-   font-weight: 600;
-   text-decoration: none;
-   transition: 0.3s;
+   font-weight: 400;
+}
+
+table td a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 
 img {
     width: 24px;
+}
+/* 
+.sidebar
+.api_keys
+.welcome
+.getting_started
+.explore_products
+.airtime_products  */
+
+@media only screen 
+and (max-width: 620px) {
+    /* For mobile phones: */
+    .sidebar {
+        display: none;
+    }
+
+    .main_page {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .api_keys a {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70vw;
+    }
+
+    .lottie {
+        width: 70vw;
+    }
+
+    .getting_started {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .getting_started section {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+    }
+
+    .airtime_products {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .airtime_products section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70vw;
+    }
+
+    table td {
+        width: 30vw;
+        border-bottom: 2px solid #d1d0d0;
+        padding: 0 20px 10px 5px;
+    }
+
+  }
+
+  @media only screen 
+  and (min-width: 620px) 
+  and (max-width: 1024px) {
+      /* For tablets: */
+
+      .sidebar {
+        margin-right: 2vw;
+    }
+
+    .main_page {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .api_keys a {
+        width: 70vw;
+        display: flex;
+        justify-content: center;  
+    }
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 60vw;
+    }
+
+    .welcome section {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+    }
+
+    .lottie {
+        width: 60vw;
+    }
+
+    .getting_started {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60vw;
+    }
+
+    .getting_started section {
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+    }
+
+    .airtime_products {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60vw;
+    }
+
+    .airtime_products section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50vw;
+    }
+
+    table td {
+        width: 20vw;
+        
+        padding: 0 20px 10px 5px;
+    }
+
+    table td > * {
+        padding: 10px 0 5px 0;
+    }
+  }
+
+
+
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1224px) {
+
+    .sidebar {
+        margin-left: 20px;
+    }
+
+    .main_page {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    .sidebar p {
+        margin-left: 20px;
+        transition: 0.3s;
+    }
+    
+    .sidebar section {
+        width: 20vw;
+        display: flex;   
+        flex-wrap: nowrap;
+    }
+    
+    .api_keys {
+        width: 70vw;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+     .api_keys a {
+        margin-right: 3vw;
+        border: 0.5px solid #000000;
+        padding: 15px 10px 15px 10px;
+        border-radius: 2px;
+        color: #000000;
+        transition: 0.3s;
+    }
+    
+    .main_page {
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+        vertical-align: baseline;
+    }
+    
+    .main_page h2 {
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin: 10px 0 20px 0;
+        padding: 20px 0 5px 0;
+    }
+    
+    .welcome {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 0 0 0;
+        width: 70vw;
+    }
+    
+    .welcome h1 {
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        font-size: xx-large;
+        font-weight: 600;
+        margin: 100px 0 20px 0;
+    }
+    
+    .welcome section {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+    
+    .welcome p {
+        font-size: large;
+    }
+    
+    .lottie {
+        width: 65vw;
+        height: 35vh;
+    }
+    
+    .getting_started {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        width: 60vw;
+    }
+    
+    .getting_started section {
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 30px 0 0;
+        border: 1px;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 10px #eff6f6;
+    }
+    
+    .getting_started section:hover {
+        cursor: pointer;
+    }
+    
+    .getting_started section a {
+        margin: 40px 0 20px 0;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .explore_products h2 {
+        word-spacing: 1px;
+        letter-spacing: 0.2px;
+        font-size: x-large;
+        font-weight: 400;
+        margin: 100px 0 20px 0;
+    }
+    
+    .airtime_products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    
+    .airtime_products section {
+        width: 25vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px 30px 30px 0;
+        border: 1px;
+        border-radius: 5px;
+        padding: 20px;
+        
+    }
+    
+    .airtime_products section a {
+        padding: 40px 0 10px 0;
+        color: #000000;
+        font-weight: 600;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    .airtime_products h3 {
+        word-spacing: 2px;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin: 25px 0 20px 20px;
+    }
+    
+    table {
+        width: 70vw;
+    }
+    
+    table tr {
+        display: block;
+        margin: 30px 0;
+    }
+    
+    table td {
+        width: 30vw;
+        padding: 0 0 10px 0;
+        line-height: normal;
+    }
+    
+    table td > * {
+       display: inline-block;
+       margin: 10px 0;
+       font-weight: 400;
+    }
+    
+    table td a {
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    
+    
+    img {
+        width: 24px;
+    }
+  }
+
+@media only screen 
+and (min-width: 1224px) {
+
+    .main_page {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .api_keys a {
+        margin-right: 0.5vw;
+    }
+
+
 }
