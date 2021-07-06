@@ -36,8 +36,10 @@
 
 .api_keys {
     position: fixed;
-    display: flex;
-    justify-content: flex-end;
+    width: 70vw;
+    float: right;
+    /* display: flex;
+    justify-content: flex-end; */
 }
 
 .main_page {
