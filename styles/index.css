@@ -35,6 +35,7 @@
 }
 
 .api_keys {
+    position: fixed;
     display: flex;
     justify-content: flex-end;
 }
