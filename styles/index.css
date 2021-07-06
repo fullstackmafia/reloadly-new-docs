@@ -35,11 +35,11 @@
 }
 
 .api_keys {
-    position: fixed;
+    /* position: fixed;
     width: 70vw;
-    float: right;
-    /* display: flex;
-    justify-content: flex-end; */
+    float: right; */
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main_page {
