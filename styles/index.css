@@ -42,6 +42,7 @@
     float: right; */
     display: flex;
     justify-content: flex-end;
+    margin-top: 20px;
 }
 
 .main_page {
@@ -68,10 +69,6 @@
 
 .main_page a:hover {
     color: #12bcd8;
-}
-
-.api_keys {
-    margin-top: 20px;
 }
 
 .api_keys a {
@@ -200,7 +197,7 @@
 }
 
 table {
-    width: 70vw;
+    width: auto;
 }
 
 table tr {
@@ -306,48 +303,56 @@ and (max-width: 620px) {
   and (max-width: 1024px) {
       /* For tablets: */
 
+      .sidebar {
+          display: none;
+      }
    
-    .sidebar section {
+    /* .sidebar section {
         margin: 0 10px 10px 10px;
         width: 36vw;
         display: flex;   
         flex-wrap: wrap;
-    }
+    } */
+
+
 
     .main_page {
         width: 100vw;
         overflow-x: hidden;
     }
 
-    .api_keys a {
-        width: 70vw;
+    .api_keys {
         display: flex;
         justify-content: center;  
     }
 
+    .api_keys a {
+       width: 60vw;
+       display: flex;
+       justify-content: center; 
+    }
+
     .welcome {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-        width: 60vw;
     }
 
     .welcome section {
         display: flex;
-        flex-direction: column;
         width: 60vw;
     }
 
     .lottie {
-        width: 60vw;
+        width: 70vw;
+        height: fit-content;
+
     }
 
     .getting_started {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         flex-wrap: wrap;
-        width: 60vw;
     }
 
     .getting_started section {
@@ -356,11 +361,16 @@ and (max-width: 620px) {
         width: 50vw;
     }
 
-    .airtime_products {
+    .explore_products h2 {
+        margin-top: 10vw;
+        margin-bottom: 5vw;
+        margin-left: auto;
+    }
+
+     .airtime_products {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         flex-wrap: wrap;
-        width: 60vw;
     }
 
     .airtime_products section {
@@ -370,8 +380,14 @@ and (max-width: 620px) {
         width: 50vw;
     }
 
+    table tbody {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     table td {
-        width: 20vw;
+        /* width: 20vw; */
         
         padding: 0 20px 10px 5px;
     }
@@ -382,9 +398,8 @@ and (max-width: 620px) {
   }
 
 
-
   @media only screen 
-  and (min-width: 1024px) 
+  and (min-width: 1025px) 
   and (max-width: 1224px) {
 
     /* .sidebar {
@@ -412,10 +427,10 @@ and (max-width: 620px) {
     }
     
     .api_keys {
-        width: 70vw;
         display: flex;
         justify-content: flex-end;
         margin-top: 20px;
+        width: 65vw;
     }
 
      .api_keys a {
@@ -474,14 +489,14 @@ and (max-width: 620px) {
     
     .getting_started {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         margin-top: 40px;
         width: 60vw;
     }
     
     .getting_started section {
-        width: 20vw;
+        width: 45vw;
         display: flex;
         flex-direction: column;
         margin: 50px 30px 0 0;
@@ -512,13 +527,13 @@ and (max-width: 620px) {
     
     .airtime_products {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
     
     
     .airtime_products section {
-        width: 25vw;
+        width: 45vw;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
