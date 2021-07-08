@@ -85,8 +85,15 @@ footer {
     padding: 50px 0 50px 0;
     font-family: 'Josefin Sans', Arial, sans-serif;
     font-weight: 400;
+    font-size: large;
     line-height: 20px;
 }
+
+.heart:before {
+    content: '\2665';
+    color: #222c3e;
+    font-size: 1.2em;
+  }
 
 .api_keys a {
     border: 0.5px solid #000000;
