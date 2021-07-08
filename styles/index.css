@@ -8,6 +8,7 @@
     margin: 20px 0 20px 0;
     width: 10vw;
 }
+
 .sidebar {
     background-color: #fdfefe;
     color: #756b62;
@@ -22,6 +23,7 @@
     transition: 0.3s;
     text-decoration: none;
     color: #756b62;
+    padding: 5px;
 }
 
 .sidebar section a:hover {
@@ -593,6 +595,11 @@ and (max-width: 620px) {
 
 @media only screen 
 and (min-width: 1224px) {
+
+    /* .sidebar {
+        position: fixed;
+        height: 100vh;
+    } */
 
     .sidebar section {
         margin: 0 10px 10px 10px;
