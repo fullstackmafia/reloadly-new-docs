@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-.body {
+body {
+    margin: 0;
+}
+
+.home {
     display: flex;
 }
 
@@ -39,9 +44,6 @@
 }
 
 .api_keys {
-    /* position: fixed;
-    width: 70vw;
-    float: right; */
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
@@ -71,6 +73,19 @@
 
 .main_page a:hover {
     color: #12bcd8;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #cee4e4;
+    padding: 50px 0 50px 0;
+    font-family: 'Josefin Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .api_keys a {
