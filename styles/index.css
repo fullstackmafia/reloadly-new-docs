@@ -43,9 +43,9 @@ body {
     flex-wrap: wrap;
 }
 
-.api_keys {
+.main_page_header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -95,7 +95,7 @@ footer {
     font-size: 1.2em;
   }
 
-.api_keys a {
+.main_page_header a {
     border: 0.5px solid #000000;
     padding: 15px 10px 15px 10px;
     border-radius: 2px;
@@ -105,7 +105,7 @@ footer {
     transition: 0.3s;
 }
 
-.api_keys :hover {
+.main_page_header :hover {
     cursor: pointer;
     color: #12bcd8;
     border: 0.5px solid #12bcd8;
@@ -252,13 +252,6 @@ table td a {
 img {
     width: 24px;
 }
-/* 
-.sidebar
-.api_keys
-.welcome
-.getting_started
-.explore_products
-.airtime_products  */
 
 @media only screen 
 and (max-width: 620px) {
@@ -272,9 +265,10 @@ and (max-width: 620px) {
         overflow-x: hidden;
     }
 
-    .api_keys a {
+    .main_page_header a {
         width: 100vw;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -345,12 +339,12 @@ and (max-width: 620px) {
         overflow-x: hidden;
     }
 
-    .api_keys {
+    .main_page_header {
         display: flex;
-        justify-content: center;  
+        justify-content: space-between;  
     }
 
-    .api_keys a {
+    .main_page_header a {
        width: 60vw;
        display: flex;
        justify-content: center; 
@@ -410,9 +404,7 @@ and (max-width: 620px) {
         flex-wrap: wrap;
     }
 
-    table td {
-        /* width: 20vw; */
-        
+    table td {       
         padding: 0 20px 10px 5px;
     }
 
@@ -425,13 +417,6 @@ and (max-width: 620px) {
   @media only screen 
   and (min-width: 1025px) 
   and (max-width: 1224px) {
-
-    /* .sidebar {
-        margin-left: 20px;
-        width: 20vw;
-        display: flex;   
-        flex-wrap: wrap;
-    } */
 
     .main_page {
         width: 100vw;
@@ -450,14 +435,14 @@ and (max-width: 620px) {
         flex-wrap: wrap;
     }
     
-    .api_keys {
+    .main_page_header {
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-between;
         margin-top: 20px;
         width: 65vw;
     }
 
-     .api_keys a {
+     .main_page_header a {
         margin-right: 3vw;
         border: 0.5px solid #000000;
         padding: 15px 10px 15px 10px;
@@ -635,7 +620,7 @@ and (min-width: 1224px) {
         overflow-x: hidden;
     }
 
-    .api_keys a {
+    .main_page_header a {
         margin-right: 0.5vw;
     }
 
